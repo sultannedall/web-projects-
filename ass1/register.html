@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pal sports</title>
+</head>
+<body>
+    <header>
+        <h1>Pal sports</h1>
+        <img src="images/logo.jpg" alt="Pal sports Logo" width="120" height="120">
+       <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product1.html">Football Jerseys</a></li>
+                <li><a href="product2.html">Basketball Jerseys</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+              <br><hr>
+
+    <section>
+        <h2>Register</h2>
+        <form action="http://comp334.studentswebprojects.ritaj.ps/util/process.php" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <p>
+                    <label for="first-name">First Name</label><br>
+                    <input type="text" id="first-name" name="first-name"
+                           placeholder="your first name " required>
+                </p>
+
+                <p>
+                    <label for="last-name">Last Name</label><br>
+                    <input type="text" id="last-name" name="last-name"
+                           placeholder="your last name " required>
+                </p>
+
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email"
+                           placeholder="example>@email.com" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number</label><br>
+                    <input type="tel" id="phone" name="phone"
+                           placeholder="e.g., +970 59 123 4567" required>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Address</legend>
+
+                <p>
+                    <label for="street-address">Street Address</label><br>
+                    <textarea id="street-address" name="street-address" rows="3" cols="40"
+                              placeholder="e.g., Al-Irsal Street, Building 12" required></textarea>
+                </p>
+
+                <p>
+                    <label for="city">City</label><br>
+                    <input type="text" id="city" name="city"
+                           placeholder="e.g., Ramallah" required>
+                </p>
+
+                <p>
+                    <label for="postal-code">Postal Code</label><br>
+                    <input type="text" id="postal-code" name="postal-code"
+                           placeholder="e.g., 00970" required>
+                </p>
+
+                <p>
+                    <label for="country">Country</label><br>
+                    <select id="country" name="country" required>
+                        <option value="">Select your country</option>
+                        <option value="Palestine">Palestine</option>
+                        <option value="Jordan">Jordan</option>
+                        <option value="Egypt">Egypt</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="United Arab Emirates">United Arab Emirates</option>
+                        <option value="Qatar">Qatar</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Account</legend>
+
+                <p>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password"
+                           placeholder="At least 8 characters" required>
+                </p>
+
+                <p>
+                    <label for="confirm-password">Confirm Password</label><br>
+                    <input type="password" id="confirm-password" name="confirm-password"
+                           placeholder="Re-enter your password" required>
+                </p>
+            </fieldset>
+
+            <p>
+                <button type="submit">Register</button>
+            </p>
+        </form>
+    </section>
+          <br><hr>  
+    <footer>
+        <p>Last updated: May 3, 2026</p>
+        <address>
+            Pal sports
+            Ramallah, Palestine<br>
+            Phone: +970595798693<br>
+            Email: support@palsports.ps
+        </address>
+        <p><a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,37 @@
+- - 
+Concepts: The basic structure of PL, syntax, semantics, data types, control 
+structures, …etc. 
+Paradigms: the model, an approach or the way of reasoning to solve the problem.
+
+
+
+Programming Languages Views 
+There are 3 different views to consider a PL: 
+1- Designer: (The inventor of the language) 
+2- Implementer: (The one who build the compiler or the interpreter) 
+3- User. (The one writes programs in the language)
+
+
+A Programming language is a notational system for describing 
+COMPUTATION in MACHINE READABLE and HUMAN READABLE 
+form.
+
+
+(1) Imperative or Procedural Paradigm =>Pascal and C.
+Language that is based on this model is characterized by: 
+1. Sequential Execution of Instructions. 
+2. Using Variables to Represent Memory Locations. 
+3. Using Assignment Statements to Change the Value of a Variable.
+
+
+(2)  Functional Paradigm => LISP
+1. There is NO Notion of Variables or Assignment Statements in this Paradigm. 
+ 
+2. Repetition is not Expressed in Loops, but is Achieved by Recursive Calls.
+
+
+
+(3)  Logical Paradigm : PROLOG
+
+
+
